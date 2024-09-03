@@ -1,0 +1,242 @@
+object Form1: TForm1
+  Left = 370
+  Height = 412
+  Top = 228
+  Width = 375
+  Caption = 'Form1'
+  ClientHeight = 412
+  ClientWidth = 375
+  DesignTimePPI = 144
+  LCLVersion = '2.0.12.0'
+  object Num1: TButton
+    Left = 0
+    Height = 75
+    Top = 262
+    Width = 75
+    Caption = '1'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Num2: TButton
+    Left = 75
+    Height = 75
+    Top = 262
+    Width = 75
+    Caption = '2'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Num3: TButton
+    Left = 150
+    Height = 75
+    Top = 262
+    Width = 75
+    Caption = '3'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Num4: TButton
+    Left = 0
+    Height = 75
+    Top = 188
+    Width = 75
+    Caption = '4'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Num5: TButton
+    Left = 75
+    Height = 75
+    Top = 188
+    Width = 75
+    Caption = '5'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Num6: TButton
+    Left = 150
+    Height = 75
+    Top = 188
+    Width = 75
+    Caption = '6'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Num7: TButton
+    Left = 0
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = '7'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Num8: TButton
+    Left = 75
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = '8'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Num9: TButton
+    Left = 150
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = '9'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Num0: TButton
+    Left = 0
+    Height = 75
+    Top = 338
+    Width = 150
+    Caption = '0'
+    OnClick = ClickBut
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Zapataia: TButton
+    Left = 150
+    Height = 75
+    Top = 338
+    Width = 75
+    Caption = ','
+    OnClick = ZapataiaClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object AC: TButton
+    Left = 150
+    Height = 75
+    Top = 38
+    Width = 75
+    Caption = 'AC'
+    OnClick = ACClick
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Strelochka: TButton
+    Left = 0
+    Height = 75
+    Top = 38
+    Width = 150
+    Caption = '<--'
+    OnClick = StrelochkaClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object C: TButton
+    Left = 225
+    Height = 75
+    Top = 38
+    Width = 75
+    Caption = 'C'
+    OnClick = CClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Delenee: TButton
+    Left = 225
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = '/'
+    OnClick = Clicktub
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Umnogenie: TButton
+    Left = 225
+    Height = 75
+    Top = 188
+    Width = 75
+    Caption = '*'
+    OnClick = Clicktub
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Menus: TButton
+    Left = 225
+    Height = 75
+    Top = 262
+    Width = 75
+    Caption = '-'
+    ParentBidiMode = False
+    OnClick = MenusClick
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Plus: TButton
+    Left = 225
+    Height = 75
+    Top = 338
+    Width = 75
+    Caption = '+'
+    OnClick = Clicktub
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Ravno: TButton
+    Left = 300
+    Height = 150
+    Top = 262
+    Width = 75
+    Caption = '='
+    OnClick = RavnoClick
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Drob: TButton
+    Left = 300
+    Height = 75
+    Top = 188
+    Width = 75
+    Caption = '1/x'
+    OnClick = DrobClick
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Stepen2: TButton
+    Left = 300
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = 'x^2'
+    OnClick = Stepen2Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Koren: TButton
+    Left = 300
+    Height = 75
+    Top = 38
+    Width = 75
+    Caption = 'x^(1/2)'
+    OnClick = KorenClick
+    ParentFont = False
+    TabOrder = 21
+  end
+  object Edit1: TEdit
+    Left = 0
+    Height = 33
+    Top = 0
+    Width = 375
+    ParentBidiMode = False
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 22
+  end
+end

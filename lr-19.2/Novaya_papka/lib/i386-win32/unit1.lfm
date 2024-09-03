@@ -1,0 +1,218 @@
+object Form1: TForm1
+  Left = 365
+  Height = 275
+  Top = 457
+  Width = 250
+  Caption = 'Form1'
+  ClientHeight = 275
+  ClientWidth = 250
+  LCLVersion = '3.2.0.0'
+  object Button1: TButton
+    Left = 0
+    Height = 50
+    Top = 175
+    Width = 50
+    Caption = '1'
+    TabOrder = 0
+    OnClick = ClickBut
+  end
+  object Button2: TButton
+    Left = 50
+    Height = 50
+    Top = 175
+    Width = 50
+    Caption = '2'
+    TabOrder = 1
+    OnClick = ClickBut
+  end
+  object Button3: TButton
+    Left = 100
+    Height = 50
+    Top = 175
+    Width = 50
+    Caption = '3'
+    TabOrder = 2
+    OnClick = ClickBut
+  end
+  object Button4: TButton
+    Left = 0
+    Height = 50
+    Top = 125
+    Width = 50
+    Caption = '4'
+    TabOrder = 3
+    OnClick = ClickBut
+  end
+  object Button5: TButton
+    Left = 50
+    Height = 50
+    Top = 125
+    Width = 50
+    Caption = '5'
+    TabOrder = 4
+    OnClick = ClickBut
+  end
+  object Button6: TButton
+    Left = 100
+    Height = 50
+    Top = 125
+    Width = 50
+    Caption = '6'
+    TabOrder = 5
+    OnClick = ClickBut
+  end
+  object Button7: TButton
+    Left = 0
+    Height = 50
+    Top = 75
+    Width = 50
+    Caption = '7'
+    TabOrder = 6
+    OnClick = ClickBut
+  end
+  object Button8: TButton
+    Left = 50
+    Height = 50
+    Top = 75
+    Width = 50
+    Caption = '8'
+    TabOrder = 7
+    OnClick = ClickBut
+  end
+  object Button9: TButton
+    Left = 100
+    Height = 50
+    Top = 75
+    Width = 50
+    Caption = '9'
+    TabOrder = 8
+    OnClick = ClickBut
+  end
+  object Button10: TButton
+    Left = 0
+    Height = 50
+    Top = 225
+    Width = 100
+    Caption = '0'
+    TabOrder = 9
+    OnClick = ClickBut
+  end
+  object Button11: TButton
+    Left = 100
+    Height = 50
+    Top = 225
+    Width = 50
+    Caption = ','
+    TabOrder = 10
+    OnClick = ClickBut
+  end
+  object Button12: TButton
+    Left = 100
+    Height = 50
+    Top = 25
+    Width = 50
+    Caption = 'AC'
+    TabOrder = 11
+    OnClick = Button12Click
+  end
+  object Button13: TButton
+    Left = 0
+    Height = 50
+    Top = 25
+    Width = 100
+    Caption = '<--'
+    TabOrder = 12
+    OnClick = Button13Click
+  end
+  object Button14: TButton
+    Left = 150
+    Height = 50
+    Top = 25
+    Width = 50
+    Caption = 'C'
+    TabOrder = 13
+    OnClick = Button14Click
+  end
+  object Button15: TButton
+    Left = 150
+    Height = 50
+    Top = 75
+    Width = 50
+    Caption = '/'
+    TabOrder = 14
+    OnClick = Clicktub
+  end
+  object Button16: TButton
+    Left = 150
+    Height = 50
+    Top = 125
+    Width = 50
+    Caption = '*'
+    TabOrder = 15
+    OnClick = Clicktub
+  end
+  object Button17: TButton
+    Left = 150
+    Height = 50
+    Top = 175
+    Width = 50
+    Caption = '-'
+    ParentBidiMode = False
+    TabOrder = 16
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Left = 150
+    Height = 50
+    Top = 225
+    Width = 50
+    Caption = '+'
+    TabOrder = 17
+    OnClick = Clicktub
+  end
+  object Button19: TButton
+    Left = 200
+    Height = 100
+    Top = 175
+    Width = 50
+    Caption = '='
+    TabOrder = 18
+    OnClick = Button19Click
+  end
+  object Button20: TButton
+    Left = 200
+    Height = 50
+    Top = 125
+    Width = 50
+    Caption = '1/x'
+    TabOrder = 19
+    OnClick = Button20Click
+  end
+  object Button21: TButton
+    Left = 200
+    Height = 50
+    Top = 75
+    Width = 50
+    Caption = 'x^2'
+    TabOrder = 20
+    OnClick = Button21Click
+  end
+  object Button22: TButton
+    Left = 200
+    Height = 50
+    Top = 25
+    Width = 50
+    Caption = 'x^(1/2)'
+    TabOrder = 21
+    OnClick = Button22Click
+  end
+  object Edit1: TEdit
+    Left = 0
+    Height = 23
+    Top = 0
+    Width = 250
+    ParentBidiMode = False
+    ReadOnly = True
+    TabOrder = 22
+  end
+end
